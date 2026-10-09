@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Semana 01 | My New Hugo Project</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Resumo da primeira semana
+Esta foi a minha primeira semana de aulas do segundo ano. A semana serviu principalmente para perceber como vai ser o ano letivo, conhecer as disciplinas e começar a organizar a minha rotina de estudo.
+O que conheci esta semana
+Conheci melhor as disciplinas do segundo ano e alguns dos conteúdos e tecnologias que iremos utilizar. Entre elas estão:
+
+Programação Web Avançada para Front-End — HTML, CSS, JavaScript e TypeScript.
+Internet das Coisas (IoT) — sensores, atuadores e possivelmente Raspberry Pi e Arduino.
+Computação Móvel — foi indicado que iremos utilizar Swift para desenvolver aplicações para iOS.
+Testes e Qualidade de Software — iremos utilizar PHP e teremos um exame escrito.
+Programação de Serviços Web — APIs, SOAP, REST e o framework Yii2 com PHP.
+Também comecei a preparar o estudo de programação e algoritmos através do CS50 e do Boot.dev.
+
+Algumas informações sobre o currículo ainda precisam de ser esclarecidas, principalmente quais linguagens serão utilizadas em determinadas disciplinas, pois em algumas aulas foi indicado que o currículo disponível não está totalmente atualizado.">
+    <meta name="generator" content="Hugo 0.167.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    <link rel="stylesheet" href="/ananke/css/main.css">
+    <script>
+  (function () {
+    "use strict";
+
+    
+    
+    function revealButtons() {
+      var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].hidden = false;
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", revealButtons);
+    } else {
+      revealButtons();
+    }
+
+    function flash(button) {
+      var label = button.querySelector(".code-copy-label");
+      var previous = label ? label.textContent : null;
+      button.classList.add("is-copied");
+      if (label) label.textContent = "Copied";
+      window.setTimeout(function () {
+        button.classList.remove("is-copied");
+        if (label && previous !== null) label.textContent = previous;
+      }, 2000);
+    }
+
+    function legacyCopy(text) {
+      var area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "absolute";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      var ok = false;
+      try {
+        ok = document.execCommand("copy");
+      } catch (e) {
+        ok = false;
+      }
+      document.body.removeChild(area);
+      return ok;
+    }
+
+    function copyFrom(button) {
+      var container = button.closest(".code-block");
+      if (!container) return;
+      var pre = container.querySelector("pre");
+      if (!pre) return;
+      var source = pre.querySelector("code") || pre;
+      var text = source.innerText;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(button); },
+          function () { if (legacyCopy(text)) flash(button); }
+        );
+      } else if (legacyCopy(text)) {
+        flash(button);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".code-copy");
+      if (button) copyFrom(button);
+    });
+  })();
+</script>
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/semana-01/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/posts/semana-01/">
+	<meta property="og:site_name" content="My New Hugo Project">
+	<meta property="og:title" content="Semana 01">
+	<meta property="og:description" content="Resumo da primeira semana Esta foi a minha primeira semana de aulas do segundo ano. A semana serviu principalmente para perceber como vai ser o ano letivo, conhecer as disciplinas e começar a organizar a minha rotina de estudo.
+O que conheci esta semana Conheci melhor as disciplinas do segundo ano e alguns dos conteúdos e tecnologias que iremos utilizar. Entre elas estão:
+Programação Web Avançada para Front-End — HTML, CSS, JavaScript e TypeScript. Internet das Coisas (IoT) — sensores, atuadores e possivelmente Raspberry Pi e Arduino. Computação Móvel — foi indicado que iremos utilizar Swift para desenvolver aplicações para iOS. Testes e Qualidade de Software — iremos utilizar PHP e teremos um exame escrito. Programação de Serviços Web — APIs, SOAP, REST e o framework Yii2 com PHP. Também comecei a preparar o estudo de programação e algoritmos através do CS50 e do Boot.dev. Algumas informações sobre o currículo ainda precisam de ser esclarecidas, principalmente quais linguagens serão utilizadas em determinadas disciplinas, pois em algumas aulas foi indicado que o currículo disponível não está totalmente atualizado.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-10-07T22:57:35+01:00">
+		<meta property="article:modified_time" content="2026-10-07T22:57:35+01:00">
+
+	<meta itemprop="name" content="Semana 01">
+	<meta itemprop="description" content="Resumo da primeira semana Esta foi a minha primeira semana de aulas do segundo ano. A semana serviu principalmente para perceber como vai ser o ano letivo, conhecer as disciplinas e começar a organizar a minha rotina de estudo.
+O que conheci esta semana Conheci melhor as disciplinas do segundo ano e alguns dos conteúdos e tecnologias que iremos utilizar. Entre elas estão:
+Programação Web Avançada para Front-End — HTML, CSS, JavaScript e TypeScript. Internet das Coisas (IoT) — sensores, atuadores e possivelmente Raspberry Pi e Arduino. Computação Móvel — foi indicado que iremos utilizar Swift para desenvolver aplicações para iOS. Testes e Qualidade de Software — iremos utilizar PHP e teremos um exame escrito. Programação de Serviços Web — APIs, SOAP, REST e o framework Yii2 com PHP. Também comecei a preparar o estudo de programação e algoritmos através do CS50 e do Boot.dev. Algumas informações sobre o currículo ainda precisam de ser esclarecidas, principalmente quais linguagens serão utilizadas em determinadas disciplinas, pois em algumas aulas foi indicado que o currículo disponível não está totalmente atualizado.">
+	<meta itemprop="datePublished" content="2026-10-07T22:57:35+01:00">
+	<meta itemprop="dateModified" content="2026-10-07T22:57:35+01:00">
+	<meta itemprop="wordCount" content="346">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Semana 01">
+	<meta name="twitter:description" content="Resumo da primeira semana Esta foi a minha primeira semana de aulas do segundo ano. A semana serviu principalmente para perceber como vai ser o ano letivo, conhecer as disciplinas e começar a organizar a minha rotina de estudo.
+O que conheci esta semana Conheci melhor as disciplinas do segundo ano e alguns dos conteúdos e tecnologias que iremos utilizar. Entre elas estão:
+Programação Web Avançada para Front-End — HTML, CSS, JavaScript e TypeScript. Internet das Coisas (IoT) — sensores, atuadores e possivelmente Raspberry Pi e Arduino. Computação Móvel — foi indicado que iremos utilizar Swift para desenvolver aplicações para iOS. Testes e Qualidade de Software — iremos utilizar PHP e teremos um exame escrito. Programação de Serviços Web — APIs, SOAP, REST e o framework Yii2 com PHP. Também comecei a preparar o estudo de programação e algoritmos através do CS50 e do Boot.dev. Algumas informações sobre o currículo ainda precisam de ser esclarecidas, principalmente quais linguagens serão utilizadas em determinadas disciplinas, pois em algumas aulas foi indicado que o currículo disponível não está totalmente atualizado.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-page is-page page-semana-01">
+   
+  
+
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        My New Hugo Project
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+<main class="pb7" role="main">
+  
+
+  <article class="page-semana-01 flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked ttu">
+    <a class="link dim" href="http://localhost:1313/posts/">Posts</a>
+  </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Semana 01</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-10-07T22:57:35+01:00">October 7, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h1 id="resumo-da-primeira-semana">Resumo da primeira semana</h1>
+<p>Esta foi a minha primeira semana de aulas do segundo ano. A semana serviu principalmente para perceber como vai ser o ano letivo, conhecer as disciplinas e começar a organizar a minha rotina de estudo.</p>
+<h2 id="o-que-conheci-esta-semana">O que conheci esta semana</h2>
+<p>Conheci melhor as disciplinas do segundo ano e alguns dos conteúdos e tecnologias que iremos utilizar. Entre elas estão:</p>
+<ul>
+<li><strong>Programação Web Avançada para Front-End</strong> — HTML, CSS, JavaScript e TypeScript.</li>
+<li><strong>Internet das Coisas (IoT)</strong> — sensores, atuadores e possivelmente Raspberry Pi e Arduino.</li>
+<li><strong>Computação Móvel</strong> — foi indicado que iremos utilizar Swift para desenvolver aplicações para iOS.</li>
+<li><strong>Testes e Qualidade de Software</strong> — iremos utilizar PHP e teremos um exame escrito.</li>
+<li><strong>Programação de Serviços Web</strong> — APIs, SOAP, REST e o framework Yii2 com PHP.</li>
+<li>Também comecei a preparar o estudo de programação e algoritmos através do CS50 e do Boot.dev.</li>
+</ul>
+<p>Algumas informações sobre o currículo ainda precisam de ser esclarecidas, principalmente quais linguagens serão utilizadas em determinadas disciplinas, pois em algumas aulas foi indicado que o currículo disponível não está totalmente atualizado.</p>
+<h2 id="cs50-e-programação">CS50 e programação</h2>
+<p>Durante a semana continuei o CS50. Terminei o exercício <strong>Sort</strong>, onde estudei e comparei Selection Sort, Bubble Sort e Merge Sort.</p>
+<p>Depois comecei e avancei bastante no <strong>Runoff</strong>, um exercício sobre um sistema de votação. Trabalhei principalmente com arrays bidimensionais, índices, funções, ciclos <code>for</code> e a lógica de distribuir os votos pelas preferências dos eleitores.</p>
+<p>Consegui compreender melhor a função <code>tabulate()</code> e perceber como os dois ciclos percorrem os eleitores e as suas preferências, atribuindo o voto à primeira opção que ainda não foi eliminada.</p>
+<h2 id="organização">Organização</h2>
+<p>Organizar melhor a minha rotina de estudo. Passei a utilizar <strong>Standup, Summary e Wrap up</strong> para acompanhar o trabalho e registar o que fiz, o que aprendi e o que preciso melhorar.</p>
+<p>Também atualizei informações no Google Sheets, como as notas do segundo ano e a duração das aulas em percentagem.</p>
+<p>A ideia para as próximas semanas é manter uma rotina mais consistente, continuar a estudar CS50 e Boot.dev e aproveitar os tempos livres para estudar quando não houver aulas.</p>
+<ul class="pa0">
+  
+</ul><ul class="pa0">
+  
+</ul>
+
+      
+    </div></article>
+</main><footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  My New Hugo Project 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

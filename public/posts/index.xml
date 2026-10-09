@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on My New Hugo Project</title>
+		<link>http://localhost:1313/posts/</link>
+		<description>Recent content in Posts on My New Hugo Project</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 07 Oct 2026 22:57:35 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Semana 01</title>
+				<link>http://localhost:1313/posts/semana-01/</link>
+				<pubDate>Wed, 07 Oct 2026 22:57:35 +0100</pubDate>
+				<guid>http://localhost:1313/posts/semana-01/</guid>
+				<description>&lt;h1 id=&#34;resumo-da-primeira-semana&#34;&gt;Resumo da primeira semana&lt;/h1&gt;&#xA;&lt;p&gt;Esta foi a minha primeira semana de aulas do segundo ano. A semana serviu principalmente para perceber como vai ser o ano letivo, conhecer as disciplinas e começar a organizar a minha rotina de estudo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;o-que-conheci-esta-semana&#34;&gt;O que conheci esta semana&lt;/h2&gt;&#xA;&lt;p&gt;Conheci melhor as disciplinas do segundo ano e alguns dos conteúdos e tecnologias que iremos utilizar. Entre elas estão:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programação Web Avançada para Front-End&lt;/strong&gt; — HTML, CSS, JavaScript e TypeScript.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Internet das Coisas (IoT)&lt;/strong&gt; — sensores, atuadores e possivelmente Raspberry Pi e Arduino.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Computação Móvel&lt;/strong&gt; — foi indicado que iremos utilizar Swift para desenvolver aplicações para iOS.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Testes e Qualidade de Software&lt;/strong&gt; — iremos utilizar PHP e teremos um exame escrito.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programação de Serviços Web&lt;/strong&gt; — APIs, SOAP, REST e o framework Yii2 com PHP.&lt;/li&gt;&#xA;&lt;li&gt;Também comecei a preparar o estudo de programação e algoritmos através do CS50 e do Boot.dev.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Algumas informações sobre o currículo ainda precisam de ser esclarecidas, principalmente quais linguagens serão utilizadas em determinadas disciplinas, pois em algumas aulas foi indicado que o currículo disponível não está totalmente atualizado.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
